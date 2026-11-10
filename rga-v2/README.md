@@ -36,8 +36,6 @@ Download the open dataset (see `data/README.md`) and place it at `data/Dataset_o
 
 ```bash
 python analysis/reproduce_headline.py            # recomputes per-condition estimates from results/scored.csv, exits 0 if all checks pass
-python figures/make_figures.py results figures   # regenerate the figures
-python figures/make_fig10.py results figures
 ```
 
 The script uses the held-out partition and the first run of each question (1,449 questions per condition, 1,344 answerable).
