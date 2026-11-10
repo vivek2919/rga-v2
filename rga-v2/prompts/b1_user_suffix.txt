@@ -1,0 +1,5 @@
+Question: {QUESTION}
+
+Return the specification in this JSON format.
+{"answerable": true|false, "metric": "<metric name>", "numerator": "<column>", "denominator": "<column>", "population": {"<field>": "<value>"|[...]}, "group_by": "<field>"|null, "extreme": "highest"|"lowest"|null, "comparison": {"field": "<field>", "group_a": "<value>", "group_b": "<value>"}|null, "needs_statistical_validation": true|false}
+Return ONLY the JSON object.

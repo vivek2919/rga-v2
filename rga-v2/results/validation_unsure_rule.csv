@@ -1,0 +1,4 @@
+model,rule,flagged_share,e2e_B2_all,recall,precision,false_rejection
+gpt_6_luna,yes and unsure flagged (as run),0.993,0.4707,1.0,0.432,0.987
+gpt_6_luna,only yes flagged,0.065,0.6494,0.142,0.943,0.007
+gpt_6_luna,nothing flagged,0.0,0.5963,0.0,0.0,0.0

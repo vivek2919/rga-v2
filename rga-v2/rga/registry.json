@@ -1,0 +1,15 @@
+{
+  "metrics": {
+    "claim_frequency": {"numerator": "total_claims", "denominator": "total_exposure",
+       "definition": "Total claims divided by total earned exposure (policy-years).",
+       "synonyms": ["claim frequency", "claim_frequency", "frequency", "claims frequency", "claims per exposure", "accident rate", "claim rate", "claims per policy year", "claims per exposure year"]},
+    "loss_ratio": {"numerator": "total_incurred", "denominator": "total_premium",
+       "definition": "Total incurred cost divided by total premium.",
+       "synonyms": ["loss ratio", "loss_ratio", "incurred to premium ratio", "claims ratio", "incurred over premium"]},
+    "claim_severity": {"numerator": "total_incurred", "denominator": "total_claims",
+       "definition": "Total incurred cost divided by total number of claims.",
+       "synonyms": ["severity", "claim severity", "claim_severity", "average claim cost", "average cost per claim", "mean claim size"]}
+  },
+  "segment_fields": ["policy_type", "policy_status", "business_type", "payment_frequency", "fuel_type", "vehicle_brand", "municipality_type", "circulation_area"],
+  "time_field": "year"
+}

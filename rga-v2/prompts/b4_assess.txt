@@ -1,0 +1,7 @@
+You are reviewing an analytics result for a motor insurance question. Decide whether the data behind the number are sufficient to rely on it.
+Question: {QUESTION}
+Specification you proposed: {SPEC}
+Computed by code: value = {VALUE}; numerator = {NUM}; denominator = {DEN}
+Evidence available for this result: claims = {CLAIMS}; exposure (policy-years) = {EXPOSURE}; distinct policyholders = {POLICIES}; 90% bootstrap interval relative half-width = {HW}
+Return ONLY a JSON object: {"status": "warranted" | "qualified" | "invalidated", "reason": "<one sentence>"}
+warranted = reliable as reported; qualified = report with a caveat about thin evidence; invalidated = should not be reported.

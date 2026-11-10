@@ -1,0 +1,6 @@
+model,cond,questions,share_identical_across_runs
+gpt_6_luna,B1,200,0.96
+gpt_6_luna,B2,200,0.985
+gpt_6_luna,B3,200,0.985
+gpt_6_luna,B4,200,0.875
+gpt_6_luna,B5,200,0.995

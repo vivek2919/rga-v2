@@ -1,0 +1,8 @@
+model,cond,rejection_accuracy_unanswerable
+gpt_6_luna,B1,0.42857142857142855
+gpt_6_luna,B1b,0.5714285714285714
+gpt_6_luna,B2,0.9619047619047619
+gpt_6_luna,B3,0.9714285714285714
+gpt_6_luna,B4,0.9619047619047619
+gpt_6_luna,B5,0.9714285714285714
+none,B6,1.0

@@ -1,0 +1,13 @@
+Return ONLY one JSON object, no prose, with these keys:
+{"answerable": true|false,
+ "metric": "<metric name>",
+ "numerator": "<column name>",
+ "denominator": "<column name>",
+ "population": {"<field>": "<value>" | ["<value>", ...]},   // filters; {} for the whole portfolio; use "year" for years
+ "group_by": "<field>" | null,        // only for 'which category has the highest/lowest ...' questions
+ "extreme": "highest" | "lowest" | null,
+ "comparison": {"field": "<field>", "group_a": "<value>", "group_b": "<value>"} | null,   // only for comparison questions, rate ratio of a over b
+ "needs_statistical_validation": true|false,
+ "evidence_concern": "yes" | "no" | "unsure",   // do you think the data behind this answer may be too thin to rely on?
+ "note": "<one short sentence>"}
+Set "answerable" to false if the question cannot be answered from the available fields and metrics.

@@ -1,0 +1,4 @@
+question,gold_spec,qtype
+"What was the claim frequency for diesel vehicles in 2024?","{""answerable"": true, ""metric"": ""claim_frequency"", ""population"": {""fuel_type"": ""DIESEL"", ""year"": 2024}, ""group_by"": null, ""extreme"": null, ""comparison"": null}",human
+"Which circulation area is cheapest to insure per claim?","{""answerable"": true, ""metric"": ""claim_severity"", ""population"": {}, ""group_by"": ""circulation_area"", ""extreme"": ""lowest"", ""comparison"": null}",hard
+"What is our customer churn?","{""answerable"": false}",hard

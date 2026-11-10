@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Regulated Generative Analytics (RGA): code and results"
+type: software
+version: "1.0.0"
+license: MIT
+repository-code: "https://github.com/vivek2919/rga-v2"
+authors:
+  - family-names: "Singh"
+    given-names: "Vivek Kumar"
+    orcid: "https://orcid.org/0009-0008-8315-5409"
+    affiliation: "TAG InfoTech, Jersey City, New Jersey, USA"
+  - family-names: "Rahul"
+    given-names: "Fnu"
+    orcid: "https://orcid.org/0009-0006-0684-445X"
+    affiliation: "Impetus Technologies, Houston, Texas, USA"
+  - family-names: "Bhatt"
+    given-names: "Vivek"
+    orcid: "https://orcid.org/0009-0003-0495-8902"
+    affiliation: "Shell Oil, Pittsburgh, Pennsylvania, USA"
+  - family-names: "Anand"
+    given-names: "Sandeep"
+    orcid: "https://orcid.org/0009-0009-8009-8581"
+    affiliation: "Department of Computer Application, Nehru Gram Bharati University, Prayagraj, Uttar Pradesh, India"
+abstract: "Code, benchmark and result files for Regulated Generative Analytics, a four-stage pipeline in which a language model proposes a structured specification, a semantic check validates it against predefined metric definitions, deterministic code computes the result, and a credibility-based validation stage assigns an evidence status recorded in a warrant."
+keywords:
+  - generative artificial intelligence
+  - insurance analytics
+  - statistical validation
+  - credibility theory
